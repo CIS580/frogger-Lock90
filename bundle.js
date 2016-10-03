@@ -15,9 +15,7 @@ var speed = 1;
 var game = new Game(canvas, update, render);
 var player = new Player({x: 0, y: 240});
 var firstCars = [];
-//var secondCars = [];
-//var thirdCars = [];
-//var fourthCars = [];
+
 
 for(var i=0; i<1; i++) {
   var car = new Car({x: 180, y: -104}, "down", speed);
